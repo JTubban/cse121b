@@ -26,12 +26,10 @@ const displayTemples = (temples) => {
 const getTemples = async () => {
   const response = await fetch("https://byui-cse.github.io/cse121b-ww-course/resources/temples.json");
   if (response.ok) {
-    let data = await response.json();
-    templeList.push(data);
-    displayTemples(data);
+    templeList = await response.json();
+    displayTemples(templeList);
   }
 }
-
 /* reset Function */
 const reset = () => {
   templesElement.innerHTML = "";
@@ -42,87 +40,16 @@ const sortBy = (temples) => {
   let filtered = document.querySelector("#sortBy");
   switch (filtered.value) {
     case "utah":
-        const fetch1 = async () => {
-            const response = await fetch("https://byui-cse.github.io/cse121b-ww-course/resources/temples.json");
-            if (response.ok) {
-                let data = await response.json();
-                data.forEach(e => {
-                    if (e.location.includes('Utah')) {
-                        let article = document.createElement("article");
-
-                        let temName = document.createElement("h3");
-                        temName.textContent = e.templeName;
-
-                        let temImage = document.createElement("img");
-                        temImage.setAttribute("src", e.imageUrl);
-                        temImage.setAttribute("alt", e.location);
-                        temImage.setAttribute("style", "max-width:400px");
-
-                        article.appendChild(temName);
-                        article.appendChild(temImage);
-                        templesElement.appendChild(article);
-                    }
-                });
-            }
-        }
-        fetch1();
+		displayTemples(temples.filter(e => e.location.includes('Utah')));
       break;
     case "notutah":
-        const fetch2 = async () => {
-            const response = await fetch("https://byui-cse.github.io/cse121b-ww-course/resources/temples.json");
-            if (response.ok) {
-                let data = await response.json();
-                data.forEach(e => {
-                    if (!e.location.includes('Utah')) {
-                        let article = document.createElement("article");
-
-                        let temName = document.createElement("h3");
-                        temName.textContent = e.templeName;
-
-                        let temImage = document.createElement("img");
-                        temImage.setAttribute("src", e.imageUrl);
-                        temImage.setAttribute("alt", e.location);
-                        temImage.setAttribute("style", "max-width:400px");
-
-                        article.appendChild(temName);
-                        article.appendChild(temImage);
-                        templesElement.appendChild(article);
-                    }
-                });
-            }
-        }
-        fetch2();
+        displayTemples(temples.filter(e => !e.location.includes('Utah')));
       break;
     case "older":
-        const fetch3 = async () => {
-            const response = await fetch("https://byui-cse.github.io/cse121b-ww-course/resources/temples.json");
-            if (response.ok) {
-                let data = await response.json();
-                data.forEach(e => {
-                    if ("1950, 0, 1" > e.dedicated) {
-                        let article = document.createElement("article");
-
-                        let temName = document.createElement("h3");
-                        temName.textContent = e.templeName;
-
-                        let temImage = document.createElement("img");
-                        temImage.setAttribute("src", e.imageUrl);
-                        temImage.setAttribute("alt", e.location);
-                        temImage.setAttribute("style", "max-width:400px");
-
-                        article.appendChild(temName);
-                        article.appendChild(temImage);
-                        templesElement.appendChild(article);
-                    }
-                });
-            }
-        }
-        fetch3();
+		displayTemples(temples.filter(e => e.dedicated < '1950, 0, 1'));
       break;
     case "all":
-      temples.filter((e) => {
-        displayTemples(e);
-      });
+        displayTemples(temples);
       break;
   }
 };

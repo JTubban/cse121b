@@ -88,7 +88,7 @@ picture {
   margin: 0 auto;
 }
 
-img {
+picture img {
   width: 240px;
   height: auto;
   border-radius: 5%;
