@@ -8,5 +8,6 @@ const getRecipes = async () => {
       recipeList = await response.json();
         console.log(recipeList);
     }
-  } 
+}
+ 
 getRecipes();
