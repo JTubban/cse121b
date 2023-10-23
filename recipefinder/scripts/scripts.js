@@ -6,8 +6,7 @@ const getRecipes = async () => {
     let response = await fetch(url);
     if (response.ok) {
       recipeList = await response.json();
-        console.log(response);
+        console.log(recipeList);
     }
   } 
-
 getRecipes();
