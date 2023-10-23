@@ -1,35 +1,11 @@
 [
     {
         "foodName": "Pork Adobo Recipe",
-        "ingredients": [
-            "20 grams vegetable oil",
-            "1 tbsp garlic, crushed",
-            "35 grams onions, minced",
-            "1/2 kg pork belly, sliced",
-            "10 g (1 pc) Knorr Pork Cubes",
-            "45 ml Knorr Liquid Seasoning",
-            "100 ml water",
-            "25 ml vinegar",
-            "3 pcs laurel leaves",
-            "1 tsp brown sugar",
-            "2 grams whole black pepper"
-        ],
         "image": "images/pork_adobo.jpg",
         "origin": "Popular Filipino dish and cooking process in Philippine cuisine of, in its base form, meat, seafood, or vegetables first browned in oil, and then marinated and simmered vinegar, salt and/or soy sauce, and garlic. It has occasionally been considered the unofficial national dish in the Philippines."
     },
     {
     "foodName": "Burrito",
-    "ingredients": [
-        "4 oz. Carne Asada (diced)",
-        "20 French fries (less if using thicker fries)",
-        "2 tablespoon creamy guacamole",
-        "2 tablespoon sour cream",
-        "⅓ cup shredded Mexican cheese",
-        "¼ cup salsa",
-        "1 tablespoon cilantro (diced)",
-        "1 tablespoon onion (diced)",
-        "1 large large flour tortilla"
-    ],
     "image": "images/burritos.png",
     "origin": "Burrito can be traced back to Mexican-American communities in Southern California, particularly in San Diego. The inclusion of french fries is considered a Californian twist on the traditional burrito, making it unique to the region. Over the years, it has gained popularity and can now be found in Mexican restaurants and taquerias throughout California and in some other parts of the United States. It has become a favorite among those who enjoy the fusion of Mexican and American flavors."
     }
