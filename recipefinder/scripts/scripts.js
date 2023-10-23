@@ -9,5 +9,5 @@ const getRecipes = async () => {
         console.log(recipeList);
     }
 }
- 
+
 getRecipes();
