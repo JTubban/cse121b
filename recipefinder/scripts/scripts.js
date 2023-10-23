@@ -1,4 +1,4 @@
-let url = "https://github.com/JTubban/cse121b/blob/main/recipefinder/jsonfile/recipes.json";
+const url = "https://github.com/JTubban/cse121b/blob/main/recipefinder/jsonfile/recipes.json";
 // let url = "https://byui-cse.github.io/cse121b-ww-course/resources/temples.json";
 let recipeList = [];
 
