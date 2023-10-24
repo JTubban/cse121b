@@ -1,5 +1,155 @@
 [
   {
+    "foodName": "Enchiladas",
+    "ingredients": [
+      "2 cups cooked chicken, shredded",
+      "1 cup shredded cheese (cheddar, Monterey Jack, or a blend)",
+      "1/2 cup diced onion",
+      "1/2 cup diced bell pepper (red, green, or a combination)",
+      "1 can (4 oz) diced green chilies (optional)",
+      "1 teaspoon ground cumin",
+      "1/2 teaspoon chili powder",
+      "Salt and black pepper to taste"
+    ],
+    "image": "images/enchiladas.jpg",
+    "origin": "Enchiladas have a long history in Mexican cuisine and are believed to have indigenous roots that predate the arrival of the Spanish in the early 16th century. The word \"enchilada\" itself comes from the Spanish word \"enchilar,\" which means \"to season with chili.\" The concept of wrapping tortillas around fillings and covering them with chili sauce has evolved over time into the dish we know today as enchiladas."
+  },
+  {
+    "foodName": "Burrito",
+    "ingredients": [
+      "4 oz. Carne Asada (diced)",
+      "20 French fries (less if using thicker fries)",
+      "2 tablespoon creamy guacamole",
+      "2 tablespoon sour cream",
+      "⅓ cup shredded Mexican cheese",
+      "¼ cup salsa",
+      "1 tablespoon cilantro (diced)",
+      "1 tablespoon onion (diced)",
+      "1 large large flour tortilla"
+    ],
+    "image": "images/burrito.jpg",
+    "origin": "Burrito can be traced back to Mexican-American communities in Southern California, particularly in San Diego. The inclusion of french fries is considered a Californian twist on the traditional burrito, making it unique to the region. Over the years, it has gained popularity and can now be found in Mexican restaurants and taquerias throughout California and in some other parts of the United States. It has become a favorite among those who enjoy the fusion of Mexican and American flavors."
+  },
+  {
+    "foodName": "Philly Cheesesteak",
+    "ingredients": [
+      "10 to 12 ounces ribeye steak",
+      "1/2 teaspoon kosher salt",
+      "1/2 teaspoon black pepper",
+      "2 tablespoons olive oil, divided",
+      "1/2 medium sweet onion, sliced",
+      "1/2 green bell pepper, sliced",
+      "1/2 red bell pepper, sliced",
+      "2 ounces (3 slices) provolone cheese",
+      "2 hoagie rolls, toasted",
+      "1/4 cup Cheez Whiz, warmed",
+      "Fresh thyme, for garnish, optional"
+    ],
+    "image": "images/phillycheesesteak.jpg",
+    "origin": "The Philly Cheesesteak, often simply called a cheesesteak, is a beloved sandwich that originated in Philadelphia, Pennsylvania. The exact origin of the Philly Cheesesteak is subject to some debate."
+  },
+  {
+    "foodName": "Smoked Brisket",
+    "ingredients": [
+      "12-14 pound whole packer brisket",
+      "2 Tablespoons coarse Kosher salt",
+      "2 Tablespoons coarse ground black pepper",
+      "2 Tablespoons garlic powder"
+    ],
+    "image": "images/smokebrisket.jpg",
+    "origin": "The history of smoking brisket is closely tied to the development of barbecue traditions in the American South, particularly in Texas. Smoking meat, including brisket, has its origins in the cooking methods of Native American tribes and European immigrants who settled in the region. They adapted these techniques to the available resources and local tastes."
+  },
+  {
+    "foodName": "Gumbo",
+    "ingredients": [
+      "1 bunch celery , diced, leaves and all",
+      "1 green bell pepper , diced",
+      "1 large yellow onion , diced",
+      "1 bunch green onion , finely chopped",
+      "1 bunch fresh chopped parsley , finely chopped",
+      "2-3 cloves garlic",
+      "1-2 Tablespoons cajun seasoning",
+      "6-8 cups Chicken broth",
+      "12 ounce package andouille sausages , sliced into 'coins' (substitute Polska Kielbasa if you can't find a good Andouille)",
+      "Meat from 1 Rotisserie Chicken",
+      "2 cups Shrimps , pre cooked",
+      "cooked white rice for serving"
+    ],
+    "image": "images/gumbo.jpg",
+    "origin": "Gumbo is a rich and flavorful stew or soup that is closely associated with the cuisine of the southern United States, particularly the state of Louisiana. It has a diverse culinary heritage, and its origins can be traced back to a combination of African, French, Spanish, and Native American influences. The name gumbo itself is believed to have West African origins, as it may be derived from the Bantu word kingombo or nkombo, which means okra. Okra is one of the key ingredients used to thicken gumbo."
+  },
+  {
+    "foodName": "Cajun",
+    "ingredients": [
+      "1 cup long-grain white rice",
+      "2 cups water",
+      "2 tablespoons vegetable oil",
+      "1 onion, chopped",
+      "1 green bell pepper, chopped",
+      "2 celery stalks, chopped",
+      "3 cloves garlic, minced",
+      "1 pound (about 450g) boneless chicken thighs, cut into bite-sized pieces",
+      "1/2 pound (about 225g) Andouille sausage, sliced",
+      "1 can (14.5 oz) diced tomatoes",
+      "2 cups chicken broth",
+      "1 teaspoon dried thyme",
+      "1 teaspoon dried oregano",
+      "1 teaspoon paprika",
+      "1/2 teaspoon cayenne pepper (adjust to taste for spiciness)",
+      "Salt and black pepper to taste",
+      "1 bay leaf",
+      "Chopped green onions for garnish (optional)"
+    ],
+    "image": "images/cajun.jpeg",
+    "origin": "Cajun cuisine and culture are deeply rooted in the history of the Acadian people, who were French colonists expelled from Acadia (now Nova Scotia, Canada) by the British in the mid-18th century. These Acadians, or Cajuns as they came to be known, settled in what is now Louisiana and played a significant role in shaping the cultural and culinary heritage of the region."
+  },
+  {
+    "foodName": "Lobster Rolls",
+    "ingredients": [
+      "1 1/2 pounds (about 680g) cooked lobster meat (from 4-5 lobsters), chopped into bite-sized pieces",
+      "1/2 cup mayonnaise",
+      "2 tablespoons fresh lemon juice",
+      "2-3 celery stalks, finely chopped",
+      "2-3 green onions, finely chopped",
+      "1-2 tablespoons fresh parsley, finely chopped",
+      "Salt and black pepper to taste"
+    ],
+    "image": "images/lobsterrolls.jpg",
+    "origin": "Lobster rolls are a classic seafood dish that originated in the New England region of the United States. The exact origin of the lobster roll is not precisely documented, but it is widely believed to have developed in the state of Connecticut in the late 19th or early 20th century."
+  },
+  {
+    "foodName": "Sisig",
+    "ingredients": [
+      "1 pound (about 450g) pork belly or pork face (often includes pig's ears and cheeks), chopped into small pieces",
+      "1 onion, minced",
+      "3 cloves garlic, minced",
+      "2-3 red or green chili peppers, minced (adjust to your spice preference)",
+      "1/4 cup vinegar",
+      "1/4 cup soy sauce",
+      "1/2 teaspoon black pepper",
+      "1/2 teaspoon salt",
+      "Cooking oil for frying"
+    ],
+    "image": "images/sisig.jpg",
+    "origin": "The province of Pampanga is often credited as the birthplace of sisig. It is believed that sisig originated in this region, known for its rich culinary traditions. Sisig is said to have its roots in the mid-20th century in the culinary capital of the Philippines, Angeles City, Pampanga. According to this theory, it was created as a way to make use of leftover pork parts, such as pig's ears, face, and jowls, which were often discarded. These parts were seasoned, grilled, and turned into a flavorful and crispy dish."
+  },
+  {
+    "foodName": "Taco",
+    "ingredients": [
+      "8 small taco shells or soft tortillas",
+      "Shredded lettuce",
+      "Diced tomatoes",
+      "Shredded cheese (cheddar, Monterey Jack, or a blend)",
+      "Sour cream",
+      "Salsa",
+      "Sliced jalapeños (optional)",
+      "Chopped fresh cilantro (optional)",
+      "Lime wedges (optional)"
+    ],
+    "image": "images/taco.jpg",
+    "origin": "The word \"taco\" itself has ancient origins, believed to have been derived from the Nahuatl word \"tlahco,\" which referred to a small, hand-rolled tortilla. The concept of using tortillas as a vessel for food dates back to ancient Mesoamerican civilizations, such as the Aztecs and Maya, who would use flatbreads to scoop up and hold various fillings. These early versions of tacos were quite simple compared to the wide variety of tacos we see today."
+  },
+  {
     "foodName": "Pork Adobo Recipe",
     "ingredients": [
       "20 grams vegetable oil",
@@ -16,21 +166,5 @@
     ],
     "image": "images/pork_adobo.jpg",
     "origin": "Popular Filipino dish and cooking process in Philippine cuisine of, in its base form, meat, seafood, or vegetables first browned in oil, and then marinated and simmered vinegar, salt and/or soy sauce, and garlic. It has occasionally been considered the unofficial national dish in the Philippines."
-  },
-  {
-    "foodName": "Burrito",
-    "ingredients": [
-      "4 oz. Carne Asada (diced)",
-      "20 French fries (less if using thicker fries)",
-      "2 tablespoon creamy guacamole",
-      "2 tablespoon sour cream",
-      "⅓ cup shredded Mexican cheese",
-      "¼ cup salsa",
-      "1 tablespoon cilantro (diced)",
-      "1 tablespoon onion (diced)",
-      "1 large large flour tortilla"
-    ],
-    "image": "images/burritos.png",
-    "origin": "Burrito can be traced back to Mexican-American communities in Southern California, particularly in San Diego. The inclusion of french fries is considered a Californian twist on the traditional burrito, making it unique to the region. Over the years, it has gained popularity and can now be found in Mexican restaurants and taquerias throughout California and in some other parts of the United States. It has become a favorite among those who enjoy the fusion of Mexican and American flavors."
   }
 ]

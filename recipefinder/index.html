@@ -1,62 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RECIPE FINDER</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <script type="module" src="" defer></script>
-    <script src="scripts/scripts.js" defer></script>
-</head>
-<body>
-    <div id="wrapper">
-        <header>
-            <h1 id="title">RECIPE FINDER</h1>
-        </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>RECIPE FINDER</title>
+        <link rel="stylesheet" href="styles/styles.css" />
+        <script type="module" src="scripts/main.js" defer></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1 id="title">RECIPE FINDER</h1>
+            </header>
 
-        <main id="main-grid">
-            <div id="search-div">
-                <input type="search" id="search" placeholder="Search...">
-            </div>
-            <section class="sec-img">
-                <img src="images/pork_adobo.jpg" alt="food-img">
-                <h2 class="food-name">Pork Adobo</h2>
-            </section>
-            <section class="sec-details">
-                <h2>Ingredients</h2>
-                <p>
-                    20 grams vegetable oil<br>
-                    1 tbsp garlic, crushed<br>
-                    35 grams onions, minced<br>
-                    1/2 kg pork belly, sliced<br>
-                    10 g (1 pc) Knorr Pork Cubes<br>
-                    45 ml Knorr Liquid Seasoning<br>
-                    100 ml water<br>
-                    25 ml vinegar<br>
-                    3 pcs laurel leaves<br>
-                    1 tsp brown sugar<br>
-                    2 grams whole black pepper<br>
-                </p>
+            <section id="select-div">
+                <select id="select">
+                    <option value="All">All</option>
+                </select>
             </section>
 
-            <section id="food-origin">
-                <h2>Place of origin</h2>
-                <p>Popular Filipino dish and cooking process in Philippine cuisine of, in its base form, meat, seafood, or vegetables first browned in oil, and then marinated and simmered vinegar, salt and/or soy sauce, and garlic. It has occasionally been considered the unofficial national dish in the Philippines.</p>
-            </section>
-        </main>
+            <main id="main-grid">
+                <!-- <section id="sec-details">
+                    <h2>Ingredients</h2>
+                    <p>
+                        20 grams vegetable oil<br />
+                        1 tbsp garlic, crushed<br />
+                        35 grams onions, minced<br />
+                        1/2 kg pork belly, sliced<br />
+                        10 g (1 pc) Knorr Pork Cubes<br />
+                        45 ml Knorr Liquid Seasoning<br />
+                        100 ml water<br />
+                        25 ml vinegar<br />
+                        3 pcs laurel leaves<br />
+                        1 tsp brown sugar<br />
+                        2 grams whole black pepper<br />
+                    </p>
+                </section> -->
 
-        <footer id="footer-grid">
-            <div class="footer-author">
-                <p class="author">&copy; JAMES TUBBAN</p>
-                <!-- <a href="site-plan.html" target="_blank">Site Plan</a> -->
-            </div>
+                <!-- <section id="food-origin">
+                    <h2>Place of origin</h2>
+                    <p>
+                        Popular Filipino dish and cooking process in Philippine cuisine of,
+                        in its base form, meat, seafood, or vegetables first browned in oil,
+                        and then marinated and simmered vinegar, salt and/or soy sauce, and
+                        garlic. It has occasionally been considered the unofficial national
+                        dish in the Philippines.
+                    </p>
+                </section> -->
+            </main>
 
-            <div class="footer-contacts">
-                <a href="https://www.facebook.com/koa24" target="_blank"><img src="images/facebook.png" alt="facebook image"></a>
-                <a href="https://www.instagram.com/tubban_james/" target="_blank"><img src="images/instagram.png" alt="instagram image"></a>
-                <a href="https://twitter.com/tubban_james" target="_blank"><img src="images/twitter.png" alt="twitter image"></a>
-            </div>
-        </footer>
-    </div>
-</body>
+            <footer id="footer-grid">
+                <div class="footer-author">
+                    <p class="author">&copy; JAMES TUBBAN</p>
+                    <!-- <a href="site-plan.html" target="_blank">Site Plan</a> -->
+                </div>
+
+                <div class="footer-contacts">
+                    <a href="https://www.facebook.com/koa24" target="_blank"><img src="images/facebook.png" alt="facebook image"/></a>
+                    <a href="https://www.instagram.com/tubban_james/" target="_blank"><img src="images/instagram.png" alt="instagram image"/></a>
+                    <a href="https://twitter.com/tubban_james" target="_blank"><img src="images/twitter.png" alt="twitter image"/></a>
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>
